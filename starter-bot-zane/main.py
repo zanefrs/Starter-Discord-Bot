@@ -112,5 +112,5 @@ async def say(ctx, *, message=None):
     await ctx.message.delete()
     await ctx.send(message) # This will make the bot delete your message and post what you said but by itself.
 
-bot.run("ODM1NjI1NDE2MDA5NDQ5NDcy.YISK0A.qzsQVaJ8N3MX7rh6mvoCVw5CZjA") # Put your bot token here. Make sure to read Readme.md if you have not already!
+bot.run("token") # Put your bot token here. Make sure to read Readme.md if you have not already!
 
